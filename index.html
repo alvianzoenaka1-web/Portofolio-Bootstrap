@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Alvian - Web Developer dan UI/UX Designer.">
+  <title>Alvian | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Welcome My Portofolio<span>.</span></a>
+      <nav id="primary-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="small-btn" href="#contact">Let's Talk</a>
+      <button class="burger" id="burgerBtn" aria-label="Buka menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-text">
+        <p class="label">WEB DEVELOPER • UI/UX</p>
+        <h1> Seseorang yang ahli dibidang <em>Pemrograman web.</em></h1>
+        <p class="desc">Saya membuat website yang rapi, responsif, dan nyaman digunakan dengan tampilan coklat yang elegan.</p>
+        <div class="buttons">
+          <a href="#projects" class="btn dark">Lihat Project</a>
+          <a href="#about" class="btn light">Tentang Saya</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="card-top"><span>PORTFOLIO</span><span>2026</span></div>
+        <div class="avatar"><img src="FREZEE.jpeg" alt="Alvian" loading="lazy"></div>
+        <p class="card-label">CREATIVE DEVELOPER</p>
+        <h2>Alvian<br><span>April Zoenaka</span></h2>
+        <div class="line"></div>
+        <p class="location">Indonesia • Jawa Timur • Sidoarjo </p>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="container strip-inner">
+        <span>HTML</span><b>•</b><span>CSS FLEXBOX</span><b>•</b><span>JAVASCRIPT</span><b>•</b><span>FIGMA</span><b>•</b><span>RESPONSIVE</span>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-title">
+        <p class="label">01 — ABOUT</p>
+        <h2>Kenalan<br>dengan saya.</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-box">
+          <span class="quote">“</span>
+          <p>Website yang bagus bukan hanya terlihat keren, tetapi juga mudah dipahami dan nyaman digunakan.</p>
+        </div>
+        <div class="about-text">
+          <p>Saya seorang pelajar yang sedang fokus mempelajari web development, UI/UX, dan teknologi digital.</p>
+          <p>Saya suka membuat tampilan yang bersih dengan struktur yang jelas. Dalam pembuatan layout, saya menggunakan CSS Flexbox agar website tetap rapi di berbagai ukuran layar.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-title">
+          <p class="label">02 — SKILLS</p>
+          <h2>Yang bisa<br>saya gunakan.</h2>
+        </div>
+        <div class="skills">
+          <article><span>01</span><h3>HTML5</h3><p>Membuat struktur halaman yang rapi dan semantik.</p></article>
+          <article class="highlight"><span>02</span><h3>CSS / Flexbox</h3><p>Membuat layout responsif untuk komputer, tablet, dan HP.</p></article>
+          <article><span>03</span><h3>JavaScript</h3><p>Menambahkan interaksi sederhana pada website.</p></article>
+          <article><span>04</span><h3>UI / UX</h3><p>Mendesain interface yang simpel dan mudah digunakan.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-title project-heading">
+        <div>
+          <p class="label">03 — PROJECTS</p>
+          <h2>Project pilihan.</h2>
+        </div>
+        <p class="heading-note">Contoh project yang nantinya bisa kamu ganti dengan karya asli.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project">
+          <div class="project-number">01</div>
+          <div class="project-body">
+            <p class="label">WEB DESIGN</p>
+            <h3>Personal Portfolio</h3>
+            <p>Website portofolio personal dengan desain clean dan responsive.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>Flexbox</span></div>
+          </div>
+          <a href="#contact" class="arrow">↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-number">02</div>
+          <div class="project-body">
+            <p class="label">UI / UX</p>
+            <h3> Tampilan aplikasi Peminjaman Barang Sekolah</h3>
+            <img src="Trello.png" alt="Project Image">
+            <p>Untuk Membantu Mengelola Peminjaman Barang di Sekolah</p>
+            <div class="tags"><span>Figma</span><span>UI</span><span>UX</span></div>
+          </div>
+          <a href="#contact" class="arrow">↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-number">03</div>
+          <div class="project-body">
+            <p class="label">LANDING PAGE</p>
+            <h3>Product Showcase</h3>
+            <p>Landing page sederhana untuk menampilkan produk dengan jelas.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>UI</span></div>
+          </div>
+          <a href="#contact" class="arrow">↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="label">04 — CONTACT</p>
+          <h2>Let's build<br><em>something great.</em></h2>
+          <p class="contact-desc">Terbuka untuk project website, UI/UX, dan kolaborasi belajar.</p>
+        </div>
+        <div class="contact-buttons">
+          <a href="mailto:alvianzoenaka1@gmail.com" class="btn cream">Email Saya</a>
+          <a href="https://github.com/alvianzoenaka1-web" target="_blank" rel="noopener" class="btn outline">GitHub</a>
+          <a href="https://www.linkedin.com/in/alvian-april-zoenaka-9aa04b422/" target="_blank" rel="noopener" class="btn outline">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>2026 Alvian. Built with HTML & CSS.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script>
+    const burgerBtn = document.getElementById('burgerBtn');
+    const primaryNav = document.getElementById('primary-nav');
+
+    burgerBtn.addEventListener('click', () => {
+      const isOpen = primaryNav.classList.toggle('open');
+      burgerBtn.classList.toggle('active', isOpen);
+      burgerBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      document.body.classList.toggle('nav-open', isOpen);
+    });
+
+    // Tutup menu saat salah satu link diklik
+    primaryNav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        primaryNav.classList.remove('open');
+        burgerBtn.classList.remove('active');
+        burgerBtn.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('nav-open');
+      });
+    });
+
+    // Tutup menu saat layar diperbesar melewati breakpoint mobile
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 850) {
+        primaryNav.classList.remove('open');
+        burgerBtn.classList.remove('active');
+        burgerBtn.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('nav-open');
+      }
+    });
+  </script>
+</body>
+</html>
